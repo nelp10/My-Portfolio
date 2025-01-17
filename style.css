@@ -1,0 +1,121 @@
+/* General reset to ensure consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background: #b1c4da;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  .profile-image {
+    width: 200px; /* Set the width */
+    height: 50; /* Maintain the aspect ratio */
+    border-left: 100%; /* Optional: Make the image circular */
+    display: square; /* Optional: Center alignment when used with margin */
+    margin: 20px auto; /* Optional: Center horizontally */
+  }
+  
+  
+  /* Navigation styles */
+  nav {
+    margin: 100px 0;
+    background: #5848eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 50% 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }
+  
+  /* Button styles */
+  button {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  }
+  
