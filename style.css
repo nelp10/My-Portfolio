@@ -1,178 +1,220 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 2.6;
-    background-color: #f4f4f4;
-    color: #0f0e0e;
-  }
-  
-  header {
-    text-align: center;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 0;
-  }
-  
-  /* Navigation Bar */
-  nav {
-    background-color: #5044f1a1;
-    color: #fff;
-    padding: 10px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  nav ul li a:hover {
-    color: #00bcd4;
-  }
-  
-  /* Sections */
-  section {
-    padding: 40px 20px;
-    margin: 5% auto;
-    max-width: 1500px;
-    background-color: #fff;
-    border-radius: 100px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    color: #007bff;
-  }
-  
-  /* Profile Section */
-  .profile {
-    text-align: center;
-  }
-  
-  .profile-image {
-    width: 450px;
-    height: 400px;
-    border-radius: 20%;
-    object-fit: square;
-    margin-bottom: 40px;
-    border: 2px solid #007bff;
-  }
-  
-  .profile h2,
-  .profile p {
-    margin: 10px 0;
-  }
-  
-  /* Education and Skills */
-  .education ul,
-  .skills ul {
-    list-style: disc;
-    padding-left: 20px;
-  }
-  
-  .education li,
-  .skills li {
-    margin-bottom: 0px;
-  }
-  
-  /* Social Links */
-  .social ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-  }
-  
-  .social ul li {
-    margin: 0 10px;
-  }
-  
-  .social ul li a {
-    text-decoration: none;
-    font-size: 50px;
-    color: #333;
-    transition: color 0.3s;
-  }
-  
-  .social ul li a:hover {
-    color: #007bff;
-  }
-  
-  .social ul li a i {
-    margin-right: 8px;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
-    margin-top: 10px;
-    font-size: 50px;
-  }
-  /* Profile Section */
-.profile h2 {
-    font-size: 30px; /* Adjusted font size for profile heading */
-  }
-  
-  .profile p {
-    font-size: 18px; /* Adjusted font size for profile text */
-  }
-  
-  /* Education and Skills */
-  .education h2,
-  .skills h2 {
-    font-size: 30px; /* Adjusted font size for section headings */
-  }
-  
-  .education li,
-  .skills li {
-    font-size: 18px; /* Adjusted font size for list items */
-  }
-  
-  /* Social Links */
-  .social h2 {
-    font-size: 30px; /* Adjusted font size for "Connect with Me" heading */
-  }
-  
-  .social ul li a {
-    font-size: 24px; /* Adjusted font size for social link text */
-  }
-  
-  .social ul li a i {
-    font-size: 24px; /* Adjusted font size for social link icons */
-  }
-  /* Navigation Bar */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 2.6;
+  background-color: #f4f4f4;
+  color: #0f0e0e;
+}
+
+header {
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #5044f1a1;
+  color: #fff;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
 nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px; /* Adjusted font size for navigation items */
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  margin: 5% auto;
+  max-width: 1500px;
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Profile Section */
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 450px;
+  height: 420px;
+  border-radius: 10%;
+  object-fit: cover;
+  margin-bottom: 40px;
+  border: 2px solid #007bff;
+}
+
+.profile h2,
+.profile p {
+  margin: 10px 0;
+}
+
+.profile h2 {
+  font-size: 30px;
+}
+
+.profile p {
+  font-size: 18px;
+}
+
+/* Education and Skills */
+.education ul,
+.skills ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.education li,
+.skills li {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+/* Social Links */
+.social ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.social ul li {
+  margin: 0 10px;
+}
+
+.social ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social ul li a:hover {
+  color: #007bff;
+}
+
+.social ul li a i {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.social h2 {
+  font-size: 30px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+      flex-direction: column;
+      gap: 10px;
   }
-  
-  nav ul li a:hover {
-    color: #00bcd4;
+
+  nav ul li {
+      margin: 5px 0;
   }
+
+  section {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 20px;
+  }
+
+  .profile-image {
+      width: 300px;
+      height: 300px;
+  }
+
+  .profile h2 {
+      font-size: 24px;
+  }
+
+  .profile p {
+      font-size: 16px;
+  }
+
+  .social ul {
+      flex-direction: column;
+  }
+
+  .social ul li a {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li a {
+      font-size: 18px;
+  }
+
+  h2 {
+      font-size: 24px;
+  }
+
+  .profile-image {
+      width: 200px;
+      height: 200px;
+  }
+
+  .profile h2 {
+      font-size: 20px;
+  }
+
+  .profile p {
+      font-size: 14px;
+  }
+
+  .education li,
+  .skills li {
+      font-size: 16px;
+  }
+
+  .social ul li a {
+      font-size: 18px;
+  }
+}
